@@ -1,0 +1,9 @@
+# Normalize line endings
+# Text file normalization
+# See https://github.com/github/linguist
+public/**/*.html linguist-vendored
+* text=auto eol=lf
+*.md linguist-documentation
+yarn.lock linguist-generated
+src/**/*.ts linguist-detectable
+# eof 728424e4
